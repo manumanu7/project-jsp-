@@ -1,0 +1,6 @@
+CREATE TABLE sreg(FName varchar(100) NOT NULL,LName varchar(100),
+BOD varchar(100),Username varchar(100) primary key,Email varchar(50) NOT NULL UNIQUE,
+PhoneNumber int NOT NULL UNIQUE,Password varchar(100)NOT NULL,gender varchar(100) NOT NULL);
+
+
+create table Contact(FullName varchar(100),Email varchar(100),MSG varchar(200));
